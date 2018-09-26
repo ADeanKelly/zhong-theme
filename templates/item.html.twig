@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{% include 'partials/meta-page.html.twig' %}
+	</head>
+	<body>
+		<article>
+			{% block content %}
+    			{{ page.content }}
+			{% endblock %}
+		</article>
+	</body>
+</html>
