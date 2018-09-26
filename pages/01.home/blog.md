@@ -2,6 +2,7 @@
 title: Home
 media_order: sunflowers-compressor.jpg
 body_classes: 'title-center title-h1h2'
+show_sidebar: false
 content:
     items:
         - '@self.children'
